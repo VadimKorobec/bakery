@@ -7,18 +7,23 @@
 
 body {
   color: var(--color-primary-dark);
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
   list-style: none;
 }
 
+/* Header */
+
 .header-link {
   color: var(--color-primary-light);
+  text-decoration: none;
 }
 
 .header-link:hover {
   color: var(--color-brand-light);
+  text-decoration: underline;
 }
 
 .button {
@@ -36,8 +41,11 @@ ul {
   cursor: pointer;
 }
 
+/* Hero */
+
 .hero-title {
   color: var(--color-primary-light);
+  text-align: center;
 }
 
 .hero-title-accent {
@@ -51,4 +59,14 @@ ul {
 
 .section-title-accent {
   color: var(--color-brand-dark);
+}
+
+/* Thaditions */
+
+.traditions-text .brand {
+  color: var(--color-brand-light);
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
 }
