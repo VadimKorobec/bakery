@@ -27,6 +27,7 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -46,6 +47,27 @@ ul {
 
 /* Header */
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 152px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
 .link {
   color: var(--color-primary-light);
   text-decoration: none;
@@ -64,6 +86,7 @@ ul {
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
+  margin-left: 152px;
 }
 
 .button:hover {
@@ -95,13 +118,20 @@ ul {
 
 /* Advantages section */
 
+.advantages-section {
+  padding: 16px 0;
+  background-color: var(--color-brand-light);
+}
+
 .advantage-title {
   display: none;
 }
 
 .advantages-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--color-primary-light);
-  background-color: var(--color-brand-light);
 }
 
 .advantage-item {
@@ -120,8 +150,26 @@ ul {
   padding-top: 96px;
 }
 
+.traditions-container {
+  display: flex;
+  gap: 104px;
+}
+
+.text-container {
+  max-width: 708px;
+}
+
 .traditions-title {
   margin-bottom: 42px;
+}
+
+.traditions-text {
+  margin-bottom: 42px;
+}
+
+.traditions-text:last-child {
+  margin-bottom: 0;
+  max-width: 340px;
 }
 
 .traditions-text .brand {
@@ -151,6 +199,17 @@ ul {
   margin-bottom: 80px;
 }
 
+.formats-list {
+  display: flex;
+  gap: 20px;
+}
+
+.format-card {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid lightgray;
+}
+
 .format-title {
   font-size: 24px;
   font-weight: 600;
@@ -164,7 +223,7 @@ ul {
 /* Contacts section */
 
 .contacts-title {
-  margin-bottom:16px; 
+  margin-bottom: 16px;
 }
 
 /* Footer section */
