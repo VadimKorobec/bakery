@@ -99,6 +99,10 @@ ul {
 
 .hero-section {
   padding: 272px 0px;
+  background-image: url('../images/image\ 1559.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -227,6 +231,14 @@ ul {
 }
 
 /* Footer section */
+
+.footer {
+  background-image: url('../images/footer_2.png');
+  background-color: var(--color-primary-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .address-link {
   color: var(--color-primary-light);
